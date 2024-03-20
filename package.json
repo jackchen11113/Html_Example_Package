@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build-css": " npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "build-js": "npx esbuild src/input.js --outfile=public/scripts.js --bundle"
+  },
+  "dependencies": {
+    "@alpinejs/anchor": "^3.13.7",
+    "@alpinejs/collapse": "^3.13.7",
+    "@alpinejs/focus": "^3.13.7",
+    "@alpinejs/intersect": "^3.13.7",
+    "@alpinejs/mask": "^3.13.7",
+    "@alpinejs/morph": "^3.13.7",
+    "@alpinejs/persist": "^3.13.7",
+    "alpinejs": "^3.13.7",
+    "esbuild": "^0.20.2"
+  }
+}

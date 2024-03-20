@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tw">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" conten="width=devic-width, initial-scale=1.0"> 
+    <title>My First Page</title>
+    <link rel="stylesheet" href="public/style.css">
+    <script defer src="public/scripts.js"></script>
+  </head>
+  <body x-data="Data">
+    <div class="w-80 h-20 bg-red-400">
+        <h1 x-text="Data.h1"></h1>
+        <p x-text="Data.p1"></p>
+        <p x-text="Data.p3"></p>
+    </div>
+
+
+    <div class="w-80 h-20 bg-blue-400">
+        <h1>My Third Web Page</h1>
+        <p>This is a paragraph of text.</p>
+        <p>This is another paragraph of text.</p>
+    </div>
+  </body>
+  
+</html>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+Alpine.data('Data', () => ({
+        Data:{
+            h1: 'My First Web Page',
+            p1: 'This is a paragraph of text.',
+            p2: 'This is another paragraph of text.'
+        },
+        }));
+     });
+</script>
