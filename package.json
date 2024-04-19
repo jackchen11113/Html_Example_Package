@@ -15,6 +15,8 @@
     "@alpinejs/morph": "^3.13.7",
     "@alpinejs/persist": "^3.13.7",
     "alpinejs": "^3.13.7",
-    "esbuild": "^0.20.2"
+    "esbuild": "^0.20.2",
+    "exceljs": "^4.4.0",
+    "sweetalert2": "^11.10.8"
   }
 }

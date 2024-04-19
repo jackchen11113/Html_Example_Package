@@ -37,6 +37,7 @@ npm install @alpinejs/focus
 npm install @alpinejs/collapse
 npm install @alpinejs/anchor
 npm install @alpinejs/morph
+npm install exceljs
 
 step6.安裝捆綁包套件esbuild
 https://esbuild.github.io/getting-started/
