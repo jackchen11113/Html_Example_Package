@@ -4,7 +4,8 @@
   },
   "scripts": {
     "build-css": " npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
-    "build-js": "npx esbuild src/input.js --outfile=public/scripts.js --bundle"
+    "build-js": "npx esbuild src/input.js --outfile=public/scripts.js --bundle",
+    "build-js2": "npx esbuild src/input2.js --outfile=public/scripts2.js --bundle"
   },
   "dependencies": {
     "@alpinejs/anchor": "^3.13.7",

@@ -6,6 +6,9 @@ import focus from '@alpinejs/focus'
 import collapse from '@alpinejs/collapse'
 import anchor from '@alpinejs/anchor'
 import morph from '@alpinejs/morph'
+import ExcelJs from 'exceljs'
+import Swal from 'sweetalert2'
+
 
 window.Alpine = Alpine
 Alpine.plugin(mask)
